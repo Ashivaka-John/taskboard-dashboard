@@ -32,14 +32,14 @@ export const datas = [
   {
     id: 4,
     icon: <FiUser />,
-    text: "Statistic",
+    text: "Statistics",
     width: "17rem",
     absolute: false,
   },
   {
     id: 5,
     icon: <SlCalender />,
-    text:"calendar",
+    text:"Calendar",
     width: "17rem",
     absolute: false,
   },

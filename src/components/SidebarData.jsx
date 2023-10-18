@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import { Link } from 'react-router-dom';
 import { datas } from "../Data"
 
 
@@ -22,7 +22,7 @@ const SidebarData = ({toggle}) => {
                 toggle ? "opacity-0 delay-200 " : ""
               } text-[1rem] text-brown whitespace-pre cursor-pointer text-gray-600 font-bold`}
             >
-              {data.text}
+              <Link to={data.text === "Main" ? "/" : `/${data.text}`}>{data.text}</Link>
             </div>
           </div>
         );
